@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0FE87517B839CE00431685 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0FE87417B839CE00431685 /* UIKit.framework */; };
+		8E0FE87717B839CE00431685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0FE87617B839CE00431685 /* Foundation.framework */; };
+		8E0FE87917B839CE00431685 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0FE87817B839CE00431685 /* CoreGraphics.framework */; };
+		8E0FE87F17B839CE00431685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE87D17B839CE00431685 /* InfoPlist.strings */; };
+		8E0FE88117B839CE00431685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FE88017B839CE00431685 /* main.m */; };
+		8E0FE88517B839CE00431685 /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FE88417B839CE00431685 /* SFAppDelegate.m */; };
+		8E0FE88717B839CE00431685 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE88617B839CE00431685 /* Default.png */; };
+		8E0FE88917B839CE00431685 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE88817B839CE00431685 /* Default@2x.png */; };
+		8E0FE88B17B839CE00431685 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE88A17B839CE00431685 /* Default-568h@2x.png */; };
+		8E0FE88E17B839CE00431685 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE88C17B839CE00431685 /* MainStoryboard.storyboard */; };
+		8E0FE89A17B83A1A00431685 /* SFDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FE89917B83A1A00431685 /* SFDefault.m */; };
+		8E0FE89E17B83BC400431685 /* DMCardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FE89D17B83BC400431685 /* DMCardItem.m */; };
+		8E0FE8A117B83EBE00431685 /* SFDefault_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FE8A017B83EBE00431685 /* SFDefault_CollectionViewCell.m */; };
+		8E0FE8A317B83EE300431685 /* SFDefault_Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE8A217B83EE300431685 /* SFDefault_Cell1.xib */; };
+		8E0FE8A517B83EF400431685 /* SFDefault_Cell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE8A417B83EF400431685 /* SFDefault_Cell2.xib */; };
+		8E0FE8A817B8445100431685 /* Pix_Duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE8A717B8445100431685 /* Pix_Duck.jpg */; };
+		8E0FE8AA17B8454400431685 /* Pix_UCLA.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FE8A917B8454400431685 /* Pix_UCLA.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E0FE87117B839CE00431685 /* iOS-SFCollectionViewWithCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-SFCollectionViewWithCards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0FE87417B839CE00431685 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E0FE87617B839CE00431685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E0FE87817B839CE00431685 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E0FE87C17B839CE00431685 /* iOS-SFCollectionViewWithCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-SFCollectionViewWithCards-Info.plist"; sourceTree = "<group>"; };
+		8E0FE87E17B839CE00431685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E0FE88017B839CE00431685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E0FE88217B839CE00431685 /* iOS-SFCollectionViewWithCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-SFCollectionViewWithCards-Prefix.pch"; sourceTree = "<group>"; };
+		8E0FE88317B839CE00431685 /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		8E0FE88417B839CE00431685 /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		8E0FE88617B839CE00431685 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8E0FE88817B839CE00431685 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8E0FE88A17B839CE00431685 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8E0FE88D17B839CE00431685 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8E0FE89817B83A1A00431685 /* SFDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFDefault.h; path = Controllers/SFDefault.h; sourceTree = "<group>"; };
+		8E0FE89917B83A1A00431685 /* SFDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFDefault.m; path = Controllers/SFDefault.m; sourceTree = "<group>"; };
+		8E0FE89C17B83BC400431685 /* DMCardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMCardItem.h; path = Data/DMCardItem.h; sourceTree = "<group>"; };
+		8E0FE89D17B83BC400431685 /* DMCardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMCardItem.m; path = Data/DMCardItem.m; sourceTree = "<group>"; };
+		8E0FE89F17B83EBE00431685 /* SFDefault_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFDefault_CollectionViewCell.h; path = Controllers/SFDefault_CollectionViewCell.h; sourceTree = "<group>"; };
+		8E0FE8A017B83EBE00431685 /* SFDefault_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFDefault_CollectionViewCell.m; path = Controllers/SFDefault_CollectionViewCell.m; sourceTree = "<group>"; };
+		8E0FE8A217B83EE300431685 /* SFDefault_Cell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SFDefault_Cell1.xib; path = Controllers/SFDefault_Cell1.xib; sourceTree = "<group>"; };
+		8E0FE8A417B83EF400431685 /* SFDefault_Cell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SFDefault_Cell2.xib; path = Controllers/SFDefault_Cell2.xib; sourceTree = "<group>"; };
+		8E0FE8A717B8445100431685 /* Pix_Duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pix_Duck.jpg; path = Resources/Pix_Duck.jpg; sourceTree = "<group>"; };
+		8E0FE8A917B8454400431685 /* Pix_UCLA.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pix_UCLA.jpeg; path = Resources/Pix_UCLA.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E0FE86E17B839CE00431685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0FE87517B839CE00431685 /* UIKit.framework in Frameworks */,
+				8E0FE87717B839CE00431685 /* Foundation.framework in Frameworks */,
+				8E0FE87917B839CE00431685 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E0FE86817B839CE00431685 = {
+			isa = PBXGroup;
+			children = (
+				8E0FE87A17B839CE00431685 /* iOS-SFCollectionViewWithCards */,
+				8E0FE87317B839CE00431685 /* Frameworks */,
+				8E0FE87217B839CE00431685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E0FE87217B839CE00431685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FE87117B839CE00431685 /* iOS-SFCollectionViewWithCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E0FE87317B839CE00431685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FE87417B839CE00431685 /* UIKit.framework */,
+				8E0FE87617B839CE00431685 /* Foundation.framework */,
+				8E0FE87817B839CE00431685 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E0FE87A17B839CE00431685 /* iOS-SFCollectionViewWithCards */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FE88317B839CE00431685 /* SFAppDelegate.h */,
+				8E0FE88417B839CE00431685 /* SFAppDelegate.m */,
+				8E0FE89717B839F600431685 /* Controllers */,
+				8E0FE89B17B83BA800431685 /* Data */,
+				8E0FE8A617B8444000431685 /* Resources */,
+				8E0FE88C17B839CE00431685 /* MainStoryboard.storyboard */,
+				8E0FE87B17B839CE00431685 /* Supporting Files */,
+			);
+			path = "iOS-SFCollectionViewWithCards";
+			sourceTree = "<group>";
+		};
+		8E0FE87B17B839CE00431685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FE87C17B839CE00431685 /* iOS-SFCollectionViewWithCards-Info.plist */,
+				8E0FE87D17B839CE00431685 /* InfoPlist.strings */,
+				8E0FE88017B839CE00431685 /* main.m */,
+				8E0FE88217B839CE00431685 /* iOS-SFCollectionViewWithCards-Prefix.pch */,
+				8E0FE88617B839CE00431685 /* Default.png */,
+				8E0FE88817B839CE00431685 /* Default@2x.png */,
+				8E0FE88A17B839CE00431685 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E0FE89717B839F600431685 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FE89817B83A1A00431685 /* SFDefault.h */,
+				8E0FE89917B83A1A00431685 /* SFDefault.m */,
+				8E0FE89F17B83EBE00431685 /* SFDefault_CollectionViewCell.h */,
+				8E0FE8A017B83EBE00431685 /* SFDefault_CollectionViewCell.m */,
+				8E0FE8A217B83EE300431685 /* SFDefault_Cell1.xib */,
+				8E0FE8A417B83EF400431685 /* SFDefault_Cell2.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E0FE89B17B83BA800431685 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FE89C17B83BC400431685 /* DMCardItem.h */,
+				8E0FE89D17B83BC400431685 /* DMCardItem.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		8E0FE8A617B8444000431685 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E0FE8A717B8445100431685 /* Pix_Duck.jpg */,
+				8E0FE8A917B8454400431685 /* Pix_UCLA.jpeg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E0FE87017B839CE00431685 /* iOS-SFCollectionViewWithCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0FE89417B839CE00431685 /* Build configuration list for PBXNativeTarget "iOS-SFCollectionViewWithCards" */;
+			buildPhases = (
+				8E0FE86D17B839CE00431685 /* Sources */,
+				8E0FE86E17B839CE00431685 /* Frameworks */,
+				8E0FE86F17B839CE00431685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-SFCollectionViewWithCards";
+			productName = "iOS-SFCollectionViewWithCards";
+			productReference = 8E0FE87117B839CE00431685 /* iOS-SFCollectionViewWithCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E0FE86917B839CE00431685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Scott Freschet";
+			};
+			buildConfigurationList = 8E0FE86C17B839CE00431685 /* Build configuration list for PBXProject "iOS-SFCollectionViewWithCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E0FE86817B839CE00431685;
+			productRefGroup = 8E0FE87217B839CE00431685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E0FE87017B839CE00431685 /* iOS-SFCollectionViewWithCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E0FE86F17B839CE00431685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0FE87F17B839CE00431685 /* InfoPlist.strings in Resources */,
+				8E0FE88717B839CE00431685 /* Default.png in Resources */,
+				8E0FE88917B839CE00431685 /* Default@2x.png in Resources */,
+				8E0FE88B17B839CE00431685 /* Default-568h@2x.png in Resources */,
+				8E0FE88E17B839CE00431685 /* MainStoryboard.storyboard in Resources */,
+				8E0FE8A317B83EE300431685 /* SFDefault_Cell1.xib in Resources */,
+				8E0FE8A517B83EF400431685 /* SFDefault_Cell2.xib in Resources */,
+				8E0FE8A817B8445100431685 /* Pix_Duck.jpg in Resources */,
+				8E0FE8AA17B8454400431685 /* Pix_UCLA.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E0FE86D17B839CE00431685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0FE88117B839CE00431685 /* main.m in Sources */,
+				8E0FE88517B839CE00431685 /* SFAppDelegate.m in Sources */,
+				8E0FE89A17B83A1A00431685 /* SFDefault.m in Sources */,
+				8E0FE89E17B83BC400431685 /* DMCardItem.m in Sources */,
+				8E0FE8A117B83EBE00431685 /* SFDefault_CollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E0FE87D17B839CE00431685 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0FE87E17B839CE00431685 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E0FE88C17B839CE00431685 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0FE88D17B839CE00431685 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E0FE89217B839CE00431685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E0FE89317B839CE00431685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E0FE89517B839CE00431685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-SFCollectionViewWithCards/iOS-SFCollectionViewWithCards-Prefix.pch";
+				INFOPLIST_FILE = "iOS-SFCollectionViewWithCards/iOS-SFCollectionViewWithCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E0FE89617B839CE00431685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-SFCollectionViewWithCards/iOS-SFCollectionViewWithCards-Prefix.pch";
+				INFOPLIST_FILE = "iOS-SFCollectionViewWithCards/iOS-SFCollectionViewWithCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E0FE86C17B839CE00431685 /* Build configuration list for PBXProject "iOS-SFCollectionViewWithCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0FE89217B839CE00431685 /* Debug */,
+				8E0FE89317B839CE00431685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E0FE89417B839CE00431685 /* Build configuration list for PBXNativeTarget "iOS-SFCollectionViewWithCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0FE89517B839CE00431685 /* Debug */,
+				8E0FE89617B839CE00431685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E0FE86917B839CE00431685 /* Project object */;
+}
